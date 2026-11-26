@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Huninn&display=swap");
+
+header {
+  background-color: #5c4033;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 8px black;
+  font-size: 20px;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: pink;
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #e8d5c4;
+  color: #3e2723;
+  margin: 20px;
+  line-height: 1.5;
+  transition:
+    background-color 0.5s,
+    color 0.5s;
+}
+
+h1 {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  background-color: #5c4033;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px black;
+}
+
+.evening-mode {
+  background-color: #2b211c;
+  color: #f5e6d3;
+}
+
+.evening-mode header {
+  background-color: #1c1410;
+}
+
+.evening-mode footer {
+  background-color: #1c1410;
+}
+
+.evening-mode nav a {
+  color: #f5e6d3;
+}
+
+.evening-mode nav a:hover {
+  color: #d4a373;
+}
+
+.evening-mode #toggle-mode {
+  background-color: #8b5e3c;
+  color: white;
+}
+
+.evening-mode #toggle-mode:hover {
+  background-color: #d4a373;
+  color: #2b211c;
+}
+
+header,
+footer {
+  transition:
+    background-color 0.5s,
+    color.5s;
+}
+
+#toggle-mode {
+  background-color: #f5e6d3;
+  color: #5c4033;
+  font-family: "Huninn", sans-serif;
+  font-size: 14px;
+  padding: 10px 18px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#toggle-mode:hover {
+  background-color: #d4a373;
+  color: #3e2723;
+}
